@@ -76,7 +76,7 @@ body{
     border-radius: 10px 10px 0px 0px;
 }
 #image1{
-    background-image: url("/College-Practicals/Assets/img/Screenshot\ 2026-10-01\ 173614.png");
+    background-image: url("/College-Practicals/Assets/img/unnamed.jpg");
 }
 #head-cover{
     background-color: #fff;
@@ -202,7 +202,7 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 .imagess{
-    background-image: url("/College-Practicals/Assets/img/unnamed.jpg");
+    background-image: url("/College-Practicals/Assets/img/Screenshot\ 2026-10-02\ 141231.png");
     height: 50px;
     width: 50px;
     background-size: cover;
