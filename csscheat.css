@@ -1,0 +1,157 @@
+body{
+    background-color: #f4f4f4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+
+}
+
+.clr{
+    clear:both
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-1{
+    background-color: rgb(59, 58, 58);
+    color : white;
+    border: 5px red solid;
+    padding: 10px;
+}
+.box-2{
+    border:  3px blueviolet double;
+    padding: 20px;
+    margin : 10px 0;
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+}
+
+.categories{
+    border: 5px #ccc solid;
+    border-radius: 15px;
+    /* margin: 20px 0; */
+    padding: 10px ;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: violet;
+    background-color: aquamarine;
+}
+a:active{
+    color: brown;
+}
+/* a:visited{
+    color: red;
+} */
+.categories li{
+    list-style-image: url(C:\Users\HP\OneDrive\Pictures\goku.jpg);
+} 
+
+.my-form{
+    padding: 20px ;
+}
+.my-form .form-grp{
+    padding-bottom: 15px;
+}
+.form-grp label{
+    display: block;
+}
+
+.form-grp input{
+    width: 100%;
+    padding: 8px;
+}
+.form-grp textarea{
+    width: 100%;
+    padding: 8px;
+}
+button{
+    color: #fff;
+    background-color: #333;
+    padding: 10px 15px;
+    border: none;
+
+}
+button:hover{
+    color: #fff;
+    background-color: saddlebrown;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float:right;
+    width:30%;
+    color:white;
+    background-color: #333;
+    padding : 10px;
+    box-sizing: border-box;
+}
+.p-box{
+    width:800px;
+    height: 500px;
+    border : 1px solid #000;
+    margin-top : 30px;
+    position : relative;
+    background-image: url(https://img.freepik.com/premium-photo/abstract-light-background_476363-6841.jpg?w=2000);
+
+
+    background-position: 100px 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.p-box h1{
+    position: absolute;
+    top : 40px;
+    left : 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom : 40px;
+    right : 200px;
+}
+.fix-me{
+    position : fixed;
+    top : 250px;
+}
+.my-list{
+    list-style: square;
+}
+.my-list li:first-child{
+    background: orange;
+}
+.my-list li:last-child{
+    background: green;
+}
+.my-list li:nth-child(5){
+    background: #ccc;
+}
+.my-list li:nth-child(6){
+    background: #ccc;
+}

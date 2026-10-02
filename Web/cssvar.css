@@ -1,0 +1,57 @@
+:root{
+    --main-bg-color: #f4f4f4;
+    --main-txt-color:#ef3465;
+    --container-width:90%;
+    --header-txt-color:#3356d3;
+    --header-bg-color:#333;
+}
+body{
+    background: var(--main-bg-color);
+    color: var(--main-txt-color);
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: var(--container-width);
+    margin: 20px auto;
+}
+
+#main-header{
+    background: var(--header-bg-color);
+    color: var(--header-txt-color);
+}
+h1#main-header{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    --box-bg-color:#fff;
+    --box-main-color:#06c;
+    --box-padding:5px 10px;
+}
+.box{
+    background-color: var(--box-bg-color);
+    padding:var(--box-padding);
+    border: 1px solid var(--box-main-color);
+    box-shadow: 5px 5px 15px var(--box-main-color);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.box h1{
+    color: var(--box-main-color);
+}
+
+.box p{
+    --box-main-color:#555;
+    color:var(--box-main-color)
+}

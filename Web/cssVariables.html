@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssvar.css">
+    <title>Css Variables</title>
+</head>
+<body>
+    <h1 id="main-header">
+        Css Varialble
+    </h1> 
+    <div class="container">
+        <div class="grid">
+            <div class="box">
+                <h1>
+                    box 1
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ducimus ea impedit, autem voluptatibus animi aliquid, reprehenderit nobis ipsa quibusdam consequuntur repellendus aut incidunt!
+                </p>
+            </div>
+            <div class="box">
+                <h1>
+                    box 2
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ducimus ea impedit, autem voluptatibus animi aliquid, reprehenderit nobis ipsa quibusdam consequuntur repellendus aut incidunt!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const box = document.querySelector('.box');
+        const boxstyle = getComputedStyle(box);
+        const boxcolor = boxstyle.getPropertyValue('--box-main-color');
+
+        console.log(boxcolor)
+    </script>
+</body>
+</html>

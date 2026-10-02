@@ -1,0 +1,227 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container, .container1, .container2,.container4, .content{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header #showcase{
+    float: left;
+}
+header #showcase h1{
+    margin : 0;
+}
+header{
+    padding-top: 25px;
+    background-color: #35434a;
+    line-height: 1;
+    min-height: 70px;
+    border-bottom: solid 5px #fae13de9;
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    list-style: none;
+    display: inline;
+}
+ header nav{
+    float: right;
+    margin-top: 10px;
+}
+header h1{
+    color: #fff;
+    font-size: 35px;
+}
+ul a{
+    color: #fff;
+    padding: 0 10px;
+}
+#showarea{
+    background-image: url(imgs/574750-blue-blur-boutique.jpg);
+    background-size:cover;
+    min-height: 550px;
+    text-align: center;
+}
+#showarea h1{
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+#showarea p{
+      color: #fff;
+      font-size: xx-large;
+}
+.newsarea{
+     background-color: #35434a;
+}
+.container1, .box1{
+    display: block;
+}
+.box1{
+    border: 2px solid #fae13de9;
+    padding: 0 25px;
+    background: #3a464c;
+    color: #fff;
+    font-size: 25px;
+    margin: 20px 0;
+    box-shadow: 7px 2px 15px #fae13d4f;
+}
+.container3{
+    text-align: center;
+     background: #3a464c;
+}
+.btn, a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+}
+.btn{
+    text-decoration: none;
+    border: 2px solid #fae13de9;
+    padding: 16px;
+    background: #fae13de9;
+    border-radius: 10px;
+    width: 25%;
+    margin-bottom: 5px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+.col1{
+    padding: 0 90px;
+   
+}
+.col1, img{
+    width: 100%;
+}
+.max img{
+    border-radius: 18px;
+    border: 3px solid #fae13de9;
+}
+
+#product{
+    background: #35434a;
+    text-align: center;
+    overflow: hidden;
+}
+
+#product, h5{
+    margin: 0;
+    padding: 0;
+}
+#product, h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+/* mens css */
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.box{
+     border: 3px solid #fae13de9;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            width: 150px;
+            box-shadow: 7px 2px 45px #fae13d4f;
+}
+.btn1{
+    background-color: #fae13de9;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.content h1{
+        color: #35434a;
+}
+/* form css */
+.quote, input[type = "text"],input[type = "email"],input[type = textarea]{
+    width: 90%;
+    padding: 13px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 29px;
+
+}
+#payment{
+    width: 90%;
+    margin: auto;
+}
+.btn2{
+    background-color: #fae13de9;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    color: #fff;
+    padding: 13px;
+    margin-top: 10px;
+}
+.btn3{
+    background-color: #fae13de9;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 35%;
+    color: #fff;
+    padding: 13px;
+    margin-top: 10px;
+}
+.main{
+    background-color: #3a464c;
+}
+header .current1 a{
+    color: #ffde05;
+    font-weight: bold;
+}
+header a:hover{
+        color: #fae13de9;
+        font-size:x-large;
+}
+footer{
+    border-top: 3px solid #fae13de9;
+     background: #3a464c;
+     color: #fff;
+     font-size: 17px;
+     text-align: center;
+     padding: 30px;
+}
+
+@media (max-width:600px) {
+    .container2, h5{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    /* padding: 0 20px; */
+}
+}

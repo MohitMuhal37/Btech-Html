@@ -1,0 +1,65 @@
+.container{
+    margin: auto;
+    width: 100%;
+}
+.class2{
+    margin: 15px 0 0 76px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.box{
+    width: 335px;
+    height: 190px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+.fa-bars{
+    font-size: 35px;
+}
+.fa-youtube{
+    font-size: 35px;
+    padding-right:140px; 
+    padding-left: 15px;
+}
+#inp{
+    margin-top: 0px;
+    width: 690px;
+    height: 40px;
+    border-radius: 5px;
+}
+.fa-magnifying-glass{
+    font-size: 35px;
+    padding-left: 15px;
+}
+.fa-microphone{
+    font-size: 35px;
+    padding-left: 15px;
+}
+.fa-bell{
+    font-size: 35px;
+    padding-left: 15px;
+}
+.fa-user{
+    font-size: 35px;
+    padding-left: 15px;
+}
+.contain{
+    display: flex;
+}
+
+.fa-house{
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.fa-download{
+    font-size: 35px;
+    padding-top: 40px;
+}
+.fa-circle-user{
+    font-size: 35px;
+    padding-top: 40px;
+}
