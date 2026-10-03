@@ -166,7 +166,7 @@ body{
 }
 #section4{
     padding: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 18px;
 }
 .career{
@@ -212,7 +212,8 @@ body{
     margin-top: 20px;
     border: 1px solid black;
     padding: 30px;
-    background-color: #f4f4f482;
+    background-color: rgba(218, 165, 32, 0.928);
+    color: white;
     border-radius: 35px;
 }
 .cards:hover{
@@ -252,10 +253,14 @@ body{
     font-size: 14px;
 }
 .section6{
-    background-color: #fff;
+    background:linear-gradient(135deg,rgb(1, 1, 53),rgb(82, 82, 194));
     padding: 20px;
     border-radius: 10px;
 }
+#pnext ,#career,#max{
+    color: white;
+}
+
 #pid{
     color: bisque;background-color: rgb(187, 84, 15);
     padding: 3px;
@@ -285,7 +290,7 @@ li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 15px;
     padding-bottom: 50px;
 }
@@ -360,7 +365,7 @@ video{
     margin: 20px 0px 0px 20px;
 }
 .section9{
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 20px;
     padding-bottom: 30px;
     display: grid;
@@ -421,8 +426,11 @@ footer{
 
     .cover {
         grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
     }
-
+    .roe{
+        padding: 8px;
+    }
     #contain1 {
         padding: 1em 2em 1em 0em; 
     }
@@ -475,6 +483,7 @@ footer{
     
     .cover {
         grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
     }
 
     .card, .images, #head-cover, .cardd, 
@@ -519,6 +528,7 @@ footer{
 @media (max-width: 480px) {
     .cover {
         grid-template-columns: 1fr;
+        gap: 5px;
     }
     #large {
         font-size: 28px;
