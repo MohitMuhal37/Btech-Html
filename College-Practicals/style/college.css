@@ -35,7 +35,6 @@ body{
 }
 #head-contain{
     display: flex;
-    position:sticky;
 }
 #contain1{
     display: flex;
@@ -144,6 +143,10 @@ body{
     color: white;
 
 }
+.wrapping{
+    height: 50px;
+    width: 170px;
+}
 #collection{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -231,9 +234,9 @@ body{
     text-align: left;
 }
 .section5{
-    background-color: #d3cccca1;
-    padding: 20px;
+     padding: 20px 0px 20px 0px;
      border-radius: 15px;
+     margin-bottom: 18px;
 }
 .cover{
     display: grid;
@@ -241,13 +244,18 @@ body{
     padding: 20px;
 }
 .company{
-    background-color: #f4f4f482;
-    color: black;
+    background:linear-gradient(135deg,rgb(1, 1, 53),rgb(82, 82, 194));
+    color: #fff;
     padding: 30px;
+    width: 70px;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 5px;
 }
 #top{
-    padding-left: 49px;
-    color: rgb(102, 102, 102);
+    padding-left: 40px;
+    color: black;
+    font-weight: 900;
 }
 .small{
     font-size: 14px;
