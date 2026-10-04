@@ -107,6 +107,9 @@ body{
     color: white;
     font-family: fantasy;
 }
+#part1{
+    padding-left: 15px;
+}
 #par{
     color: #f4f4f482;
     font-size: 18px;
