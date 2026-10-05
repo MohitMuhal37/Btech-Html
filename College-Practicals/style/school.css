@@ -1,6 +1,5 @@
-
 body{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url("/Assets/img/school img.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),url("/Assets/img/school img.jpg");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,7 +36,7 @@ body{
     font-weight: 900;
 }
 .button{
-    padding-top: 15%;
+    padding-top: 8%;
     text-align: center;
 }
 .btn{
@@ -45,4 +44,9 @@ body{
     padding: 20px;
     border-radius: 10px;
     border: none;
+}
+.head{
+    font-family:fantasy;
+    font-size: 43px;
+    color: #ebdcc7;
 }
