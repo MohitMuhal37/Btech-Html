@@ -1,0 +1,41 @@
+*{
+    margin:auto
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.head{
+    padding-right: 100px;
+    color: white;
+}
+#anchor{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px;
+    background-color: #333;
+    border-radius: 20px;
+    font-weight: 500;
+}
+#head1{
+    font-family: Georgia;
+}
+.container{
+    width: 90%;
+    padding-top: 90px;
+    margin-top: 20px;
+}
+.carousel-inner{
+    border-radius: 50px;
+}
