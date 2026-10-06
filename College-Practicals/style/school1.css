@@ -1,11 +1,13 @@
 *{
     margin:auto
 }
-
+body{
+    background: linear-gradient(115deg,#287A74,#FFF8B0,#AEEED3);
+}
 .contain{
     display: flex;
     justify-content: space-between;
-    background-color: skyblue;
+    background-color: #359FA0;
     padding: 20px;
     position: fixed;
     width: 100%;
@@ -20,16 +22,17 @@
     color: white;
 }
 #anchor{
-    color: white;
+    color: #FFF8B0;
     text-decoration: none;
     margin: 10px;
     padding: 8px;
-    background-color: #333;
+    background-color: #287A74;
     border-radius: 20px;
     font-weight: 500;
 }
 #head1{
     font-family: Georgia;
+    color: #FFF8B0;
 }
 .container{
     width: 90%;
@@ -44,7 +47,7 @@
 }
 .head2{
     text-align: center;
-    color: skyblue;
+    color: #287A74;
     text-shadow: 3px 3px 10px rgb(143, 202, 217);
 }
 .para1{
@@ -75,12 +78,12 @@
     background-size: cover;
 }
 .contains{
-    background-color: skyblue;
+    background-color: #359FA0;
 }
 footer{
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    color: white;
+    color: #FFF8B0;
     font-weight: 700;
 }
