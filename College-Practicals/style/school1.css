@@ -117,6 +117,81 @@ body{
     color: #fffbd4;
     padding-top: 8rem;
 }
+.wrappers{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     padding: 20px 0px 20px 0px;
+     gap: 20px;
+}
+.one > div{
+    border-radius: 20px;
+    outline: 2px solid white;
+    outline-offset: -15px;
+    box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5);
+    position: relative;
+    opacity: 0.85;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-out;
+    &:hover{
+       outline: none;
+    }
+}
+.imHead{
+        padding-top: 59px;
+}
+span{
+    color:white;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    /* z-index: 2; */
+    top: calc(150px - 20px);
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding: 10px 50px;
+    margin: 0 45px;
+    transition: all 0.3s ease-out;
+    opacity: 1;
+     &:hover{
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+        
+    }
+}
+#one-im{
+    background-image: url("/Assets/img/Chairman.jpg");
+     &:hover{
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+        span{
+            opacity: 0;
+        }
+    }
+}
+#one-im1{
+    background-image: url("/Assets/img/principal.jpg");
+     &:hover{
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+        span{
+            opacity: 0;
+        }
+    }
+}
+#one-im2{
+    background-image: url("/Assets/img/faculty.jpg");
+     &:hover{
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+        span{
+            opacity: 0;
+        }
+    }
+}
 footer{
     padding: 20px;
     display: grid;
