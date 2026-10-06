@@ -479,7 +479,6 @@ footer > .section1-head{
     }
 }
 @media screen and (max-width: 768px) {
-    /* Header & Navigation stacking */
     .contain {
         flex-direction: column;
         align-items: center;
