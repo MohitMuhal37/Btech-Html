@@ -225,9 +225,66 @@ span{
 }
 .section13{
     background-color: #fff;
+    padding-top: 30px;
+    text-align: center;
+}
+.cover{
+    display: flex;
+    gap: 20px;
+}
+.fa-synagogue, .fa-graduation-cap{
+    font-size: 30px;
+    color: #010736;
+    padding-bottom: 20px;
+}
+.paragraph{
+    text-align: center;
+    color: #010736;
+    line-height: 1.5;
+    padding: 30px;
+    /* padding-bottom: 30px; */
+}
+.div1{
+    border-top: 3px solid #010736;
+}
+#up{
+    margin-bottom: 24px;
+}
+.containers{
+    width: 95%;
+}
+.box{
+    height: 400px;
+    width: 550px;
+    background-color: #010736;
+    margin-top: 40px;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.covers{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+#second{
+    margin-left: 50px;
+}
+.gap{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+#but1{
+    width: 470px;
+    padding: 5px;
+    background-color:#FCF1D0;
+    color: #22396F;
+    font-size: x-large;
+    border-radius: 30px;
+    border: none;
 }
 footer{
     padding: 20px;
