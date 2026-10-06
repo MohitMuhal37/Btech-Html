@@ -2,7 +2,7 @@
     margin:auto
 }
 body{
-    background: linear-gradient(135deg,#00052ced, #fdfeff, #0b2750d7);
+    background: #fff;
 }
 .contain{
     display: flex;
@@ -39,7 +39,7 @@ body{
 .container{
     width: 90%;
     padding-top: 90px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .carousel-inner{
     border-radius: 50px;
@@ -49,10 +49,11 @@ body{
 }
 .head2{
     text-align: center;
-    color: #fff;
+    color: #010736;
     text-shadow: 3px 3px 10px rgb(143, 202, 217);
+    padding:30px 0px 30px 0px;
 }
-.para1{
+.paragraph{
     text-align: justify;
     line-height: 1.5;
 }
@@ -60,6 +61,7 @@ body{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 .nested
 {
@@ -76,7 +78,7 @@ body{
     transition: all 1.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
     &:hover{
     transform: scale(1.02);
-    box-shadow: 3px 3px 10px 3px #FCF1D0;}
+    box-shadow: 3px 3px 20px 10px #010736;}
 }
 .images{
     height: 200px;
@@ -286,10 +288,9 @@ span{
     border-radius: 30px;
     border: none;
 }
-footer{
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+footer > .section1-head{
     color: #fff;
-    font-weight: 700;
+    background-color: #010736;
+    text-align: center;
+    padding-top: 50px;
 }
