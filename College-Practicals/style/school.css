@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),url("/Assets/img/school img.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url("/Assets/img/school img.jpg");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
