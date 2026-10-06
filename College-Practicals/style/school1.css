@@ -71,12 +71,17 @@ body{
     border: none;
     border-radius: 20px;
     padding: 1em;
+    transition: all 1.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    &:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 10px 3px #287A74;}
 }
 .images{
     height: 200px;
     width: 350px;
     background-size: cover;
     background-repeat: no-repeat;
+    vertical-align: middle;
 }
 #image1{
     background-image: url("/Assets/img/s1.jpg");
@@ -107,6 +112,10 @@ body{
 }
 .contains{
     background-color: #359FA0;
+}
+.heading{
+    color: #fffbd4;
+    padding-top: 8rem;
 }
 footer{
     padding: 20px;
