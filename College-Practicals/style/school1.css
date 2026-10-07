@@ -352,7 +352,7 @@ span{
     background-image: url("/Assets/img/s7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px;
+    height: 600px;
 }
 footer > .section1-head{
     color: #fff;
@@ -500,6 +500,11 @@ footer > .section1-head{
         padding-top: 5rem;
         font-size: 1rem;
     }
+    #result-img{
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 /* for curriculam responsive */
@@ -515,7 +520,7 @@ footer > .section1-head{
     }
 
     #but1 {
-        width: 100%;
+        width: 400px;
     }
 }
 
