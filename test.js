@@ -1,2 +1,1 @@
-const para = document.getElementById("para");
-console.log(para.innerText);
+const listItems = document.querySelectorAll(".item");
