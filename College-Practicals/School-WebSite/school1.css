@@ -348,7 +348,7 @@ span{
 #img-id{
     margin-bottom: 30px;
 }
-.result-img{
+#img-id > .result-img{
     background-image: url("./img/s7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,7 +412,7 @@ footer > .section1-head{
         height: 350px;
         object-fit: cover;
     }
-    #result-img img{
+    .result-img img{
         height: 350px;
         object-fit: cover;
     }
