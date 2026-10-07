@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url("/College-Practicals/School-WebSite/img/school\ img.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),url("./img/school\ img.jpg");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body{
     margin-top: 30px;
 }
 .logo{
-      background-image: url("/College-Practicals/School-WebSite/img/logoschool.jpg");
+      background-image: url("./img/logoschool.jpg");
       height: 100px;
       width: 100px;
       border-radius: 10px;
