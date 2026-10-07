@@ -1,0 +1,626 @@
+*{
+    margin:auto
+}
+body{
+    background: #fff;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    background-color: #010736;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.head{
+    padding-right: 100px;
+    color: white;
+}
+#anchor{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px;
+    background-color: #22396F;
+    border-radius: 20px;
+    font-weight: 500;
+    width: 100px;
+    text-align: center;
+}
+#head1{
+    font-family: Georgia;
+    color: #fff;
+}
+.container{
+    width: 90%;
+    padding-top: 90px;
+    margin-top: 40px;
+}
+.carousel-inner{
+    border-radius: 50px;
+}
+.section2{
+    margin-top: 30px;
+}
+.head2{
+    text-align: center;
+    color: #010736;
+    text-shadow: 3px 3px 10px rgb(143, 202, 217);
+    padding:30px 0px 30px 0px;
+}
+.paragraph{
+    text-align: justify;
+    line-height: 1.5;
+}
+.section3{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.nested
+{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    /* grid-auto-rows: 70px; */
+    gap: 25px;
+    /* padding-left: 35%; */
+}
+.nested div{
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    transition: all 1.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    &:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 20px 10px #010736;}
+}
+.images{
+    height: 200px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+#image1{
+    background-image: url("/College-Practicals/Assets/img/s1.jpg");
+}
+#image2{
+    background-image: url("/College-Practicals/Assets/img/s2.jpg");
+}
+#image3{
+    background-image: url("/College-Practicals/Assets/img/s3.jpg");
+}
+#image4{
+    background-image: url("/College-Practicals/Assets/img/s4.jpg");
+}
+#image5{
+    background-image: url("/College-Practicals/Assets/img/s5.jpg");
+}
+#image6{
+    background-image: url("/College-Practicals/Assets/img/s6.jpg");
+}
+#image7{
+    background-image: url("/College-Practicals/Assets/img/s7.jpg");
+}
+#image8{
+    background-image: url("/College-Practicals/Assets/img/s8.jpg");
+}
+#image9{
+    background-image: url("/College-Practicals/Assets/img/s9.jpg");
+}
+.contains{
+    background-color: #010736;
+}
+.heading{
+    color: #fffbd4;
+    padding-top: 8rem;
+}
+.wrappers{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     padding: 20px 0px 20px 0px;
+     gap: 20px;
+}
+.one > div{
+    border-radius: 20px;
+    outline: 2px solid white;
+    outline-offset: -15px;
+    box-shadow: 5px 10px 40px 5px rgba(0,0,0,0.5);
+    position: relative;
+    opacity: 0.85;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-out;
+    &:hover{
+       outline: none;
+    }
+}
+.imHead{
+        padding-top: 59px;
+}
+span{
+    color:white;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    /* z-index: 2; */
+    top: calc(150px - 20px);
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding: 10px 50px;
+    margin: 0 45px;
+    transition: all 0.3s ease-out;
+    opacity: 1;
+     &:hover{
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+        
+    }
+}
+#one-im{
+    background-image: url("/College-Practicals/Assets/img/Chairman.jpg");
+     &:hover{
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+        span{
+            opacity: 0;
+        }
+    }
+}
+#one-im1{
+    background-image: url("/College-Practicals/Assets/img/principal.jpg");
+     &:hover{
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+        span{
+            opacity: 0;
+        }
+    }
+}
+#one-im2{
+    background-image: url("/College-Practicals/Assets/img/faculty.jpg");
+     &:hover{
+        backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+        span{
+            opacity: 0;
+        }
+    }
+}
+
+.section12{
+    padding:160px 0px 100px 0px;
+    text-align: center;
+    background-color: #fff;
+}
+.section1-head{
+    color: #010736;
+    padding-bottom: 50px;
+}
+ #head-para{
+    color: #010736;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: larger;
+ }
+#butn1{
+    padding: 10px;
+    width: 300px;
+    font-size: x-large;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: #010736;
+    &:hover{
+        background-color: #22396F;
+    }
+}
+.section13{
+    background-color: #fff;
+    padding-top: 30px;
+    text-align: center;
+}
+.cover{
+    display: flex;
+    gap: 20px;
+}
+.fa-synagogue, .fa-graduation-cap{
+    font-size: 30px;
+    color: #010736;
+    padding-bottom: 20px;
+}
+.paragraph{
+    text-align: center;
+    color: #010736;
+    line-height: 1.5;
+    padding: 30px;
+    /* padding-bottom: 30px; */
+}
+.div1{
+    border-top: 3px solid #010736;
+}
+#up{
+    margin-bottom: 24px;
+}
+.containers{
+    width: 95%;
+}
+.box{
+    height: 400px;
+    width: 550px;
+    background-color: #010736;
+    margin-top: 40px;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.covers{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+#second{
+    margin-left: 50px;
+}
+.gap{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+#but1{
+    width: 470px;
+    padding: 5px;
+    background-color:#FCF1D0;
+    color: #22396F;
+    font-size: x-large;
+    border-radius: 30px;
+    border: none;
+    &:hover{
+        background-color: #22396F;
+        color: #fff;
+    }
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -60px;
+    gap :20px;
+    background-color: #010736;
+    margin-bottom: 20px;
+}
+.card-section > .card{
+    margin: 10px;
+    border-radius: 30px;
+}
+.f-name{
+    text-align: center;
+    padding: 20px 0px 17px 0px;
+    color: #22396F;
+}
+.head-p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: larger;
+}
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 350px;
+    margin-top: 16px;
+    border-radius: 30px;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    &:hover{
+         transform: scale(1.07);
+         cursor: pointer;
+    }
+}
+#f-image1{
+    background-image: url("/College-Practicals/Assets/img/rcb7.jpg");
+}
+#f-image2{
+    background-image: url("/College-Practicals/Assets/img/rcb12.jpg");
+}
+#f-image3{
+    background-image: url("/College-Practicals/Assets/img/rcb8.jpg");
+}
+#f-image4{
+    background-image: url("/College-Practicals/Assets/img/csk.1.jpg");
+}
+#f-image5{
+    background-image: url("/College-Practicals/Assets/img/csk.2.jpg");
+}
+#f-image6{
+    background-image: url("/College-Practicals/Assets/img/rcb2.jpg");
+}
+#img-id{
+    margin-bottom: 30px;
+}
+#result-img{
+    background-image: url("/College-Practicals/Assets/img/s7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+footer > .section1-head{
+    color: #fff;
+    background-color: #010736;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* home responsive */
+@media screen and (max-width: 1200px) {
+    .container,
+    .containers {
+        width: 95%;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #but1 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .section3,
+    .nested,.card-section
+     {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .wrappers{
+        display: none;
+    }
+    .cover,
+    .covers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #second {
+        margin-left: 0;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+    }
+
+    .paragraph {
+        padding: 15px;
+    }
+    .carousel-item img {
+        height: 350px;
+        object-fit: cover;
+    }
+    #result-img img{
+        height: 350px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contain {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 10px;
+    }
+    .card-section
+     {
+        grid-template-columns:  repeat(1fr);
+    }
+    .head {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    #anchor {
+        margin: 5px;
+        width: auto;
+        min-width: 80px;
+    }
+    .container {
+        padding-top: 140px;
+    }
+
+    .section12 {
+        padding: 180px 20px 50px 20px;
+    }
+
+    #head-para {
+        font-size: medium;
+    }
+
+    span {
+        margin: 0 15px;
+        padding: 8px 20px;
+    }
+
+    .carousel-item img ,#result-img img{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #head1 {
+        font-size: 1.4rem;
+    }
+
+    .section3,
+    .nested,
+    .card-section
+    {
+        grid-template-columns: 1fr;
+    }
+    .wrappers{
+        display: none;
+    }
+    .images {
+        width: 100%;
+        height: 200px;
+    }
+
+    .box {
+        padding: 20px;
+    }
+
+    #butn1,
+    #but1 {
+        width: 100%;
+        font-size: large;
+    }
+
+    .head2 {
+        font-size: 1.3rem;
+        padding: 15px 0;
+    }
+
+    .heading {
+        padding-top: 5rem;
+        font-size: 1rem;
+    }
+}
+
+/* for curriculam responsive */
+@media screen and (max-width: 1200px) {
+    .container,
+    .containers {
+        width: 95%;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #but1 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cover,
+    .covers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #second {
+        margin-left: 0;
+    }
+
+    .nested,
+    .wrappers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+    }
+
+    .paragraph {
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contain {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 10px;
+    }
+
+    .head {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    #anchor {
+        margin: 5px;
+        width: auto;
+        min-width: 80px;
+    }
+    .section12 {
+        padding: 180px 20px 50px 20px;
+    }
+
+    #head-para {
+        font-size: medium;
+    }
+
+    .section3 {
+        grid-template-columns: 1fr;
+    }
+
+    span {
+        margin: 0 15px;
+        padding: 8px 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #head1 {
+        font-size: 1.5rem;
+    }
+
+    .nested,
+    .wrappers {
+        grid-template-columns: 1fr;
+    }
+
+    .images {
+        width: 100%;
+        height: 180px;
+    }
+
+    .box {
+        padding: 20px;
+    }
+
+    #butn1,
+    #but1 {
+        width: 100%;
+        font-size: large;
+    }
+
+    .head2 {
+        font-size: 1.4rem;
+        padding: 15px 0;
+    }
+
+    .heading {
+        padding-top: 4rem;
+    }
+}
