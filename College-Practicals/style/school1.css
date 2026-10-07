@@ -88,31 +88,31 @@ body{
     vertical-align: middle;
 }
 #image1{
-    background-image: url("/Assets/img/s1.jpg");
+    background-image: url("/College-Practicals/Assets/img/s1.jpg");
 }
 #image2{
-    background-image: url("/Assets/img/s2.jpg");
+    background-image: url("/College-Practicals/Assets/img/s2.jpg");
 }
 #image3{
-    background-image: url("/Assets/img/s3.jpg");
+    background-image: url("/College-Practicals/Assets/img/s3.jpg");
 }
 #image4{
-    background-image: url("/Assets/img/s4.jpg");
+    background-image: url("/College-Practicals/Assets/img/s4.jpg");
 }
 #image5{
-    background-image: url("/Assets/img/s5.jpg");
+    background-image: url("/College-Practicals/Assets/img/s5.jpg");
 }
 #image6{
-    background-image: url("/Assets/img/s6.jpg");
+    background-image: url("/College-Practicals/Assets/img/s6.jpg");
 }
 #image7{
-    background-image: url("/Assets/img/s7.jpg");
+    background-image: url("/College-Practicals/Assets/img/s7.jpg");
 }
 #image8{
-    background-image: url("/Assets/img/s8.jpg");
+    background-image: url("/College-Practicals/Assets/img/s8.jpg");
 }
 #image9{
-    background-image: url("/Assets/img/s9.jpg");
+    background-image: url("/College-Practicals/Assets/img/s9.jpg");
 }
 .contains{
     background-color: #010736;
@@ -164,7 +164,7 @@ span{
     }
 }
 #one-im{
-    background-image: url("/Assets/img/Chairman.jpg");
+    background-image: url("/College-Practicals/Assets/img/Chairman.jpg");
      &:hover{
         backface-visibility: hidden;
         transform: scale(1.15, 1.15);
@@ -175,7 +175,7 @@ span{
     }
 }
 #one-im1{
-    background-image: url("/Assets/img/principal.jpg");
+    background-image: url("/College-Practicals/Assets/img/principal.jpg");
      &:hover{
         backface-visibility: hidden;
         transform: scale(1.15, 1.15);
@@ -186,7 +186,7 @@ span{
     }
 }
 #one-im2{
-    background-image: url("/Assets/img/faculty.jpg");
+    background-image: url("/College-Practicals/Assets/img/faculty.jpg");
      &:hover{
         backface-visibility: hidden;
         transform: scale(1.15, 1.15);
@@ -328,28 +328,28 @@ span{
     }
 }
 #f-image1{
-    background-image: url("/Assets/img/rcb7.jpg");
+    background-image: url("/College-Practicals/Assets/img/rcb7.jpg");
 }
 #f-image2{
-    background-image: url("/Assets/img/rcb12.jpg");
+    background-image: url("/College-Practicals/Assets/img/rcb12.jpg");
 }
 #f-image3{
-    background-image: url("/Assets/img/rcb8.jpg");
+    background-image: url("/College-Practicals/Assets/img/rcb8.jpg");
 }
 #f-image4{
-    background-image: url("/Assets/img/csk.1.jpg");
+    background-image: url("/College-Practicals/Assets/img/csk.1.jpg");
 }
 #f-image5{
-    background-image: url("/Assets/img/csk.2.jpg");
+    background-image: url("/College-Practicals/Assets/img/csk.2.jpg");
 }
 #f-image6{
-    background-image: url("/Assets/img/rcb2.jpg");
+    background-image: url("/College-Practicals/Assets/img/rcb2.jpg");
 }
 #img-id{
     margin-bottom: 30px;
 }
 #result-img{
-    background-image: url("/Assets/img/s7.jpg");
+    background-image: url("/College-Practicals/Assets/img/s7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
