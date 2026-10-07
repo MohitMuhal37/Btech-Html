@@ -345,6 +345,15 @@ span{
 #f-image6{
     background-image: url("/Assets/img/rcb2.jpg");
 }
+#img-id{
+    margin-bottom: 30px;
+}
+#result-img{
+    background-image: url("/Assets/img/s7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
 footer > .section1-head{
     color: #fff;
     background-color: #010736;
