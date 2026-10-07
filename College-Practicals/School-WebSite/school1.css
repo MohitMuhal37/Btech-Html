@@ -317,6 +317,9 @@ span{
 .img{
     background-size: cover;
     background-repeat: no-repeat;
+}
+#f-image1{
+    background-image: url("./img/rcb7.jpg");
     height: 200px;
     width: 350px;
     margin-top: 16px;
@@ -326,9 +329,6 @@ span{
          transform: scale(1.07);
          cursor: pointer;
     }
-}
-#f-image1{
-    background-image: url(./img/rcb7.jpg);
 }
 #f-image2{
     background-image: url("./img/rcb12.jpg");
@@ -348,7 +348,7 @@ span{
 #img-id{
     margin-bottom: 30px;
 }
-#result-img{
+.result-img{
     background-image: url("./img/s7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
