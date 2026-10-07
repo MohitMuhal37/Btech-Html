@@ -304,6 +304,16 @@ span{
     margin: 10px;
     border-radius: 30px;
 }
+.f-name{
+    text-align: center;
+    padding: 20px 0px 17px 0px;
+    color: #22396F;
+}
+.head-p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: larger;
+}
 .img{
     background-size: cover;
     background-repeat: no-repeat;
@@ -311,6 +321,11 @@ span{
     width: 350px;
     margin-top: 16px;
     border-radius: 30px;
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    &:hover{
+         transform: scale(1.07);
+         cursor: pointer;
+    }
 }
 #f-image1{
     background-image: url("/Assets/img/rcb7.jpg");
