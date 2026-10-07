@@ -292,6 +292,44 @@ span{
         color: #fff;
     }
 }
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -60px;
+    gap :20px;
+    background-color: #010736;
+    margin-bottom: 20px;
+}
+.card-section > .card{
+    margin: 10px;
+    border-radius: 30px;
+}
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 350px;
+    margin-top: 16px;
+    border-radius: 30px;
+}
+#f-image1{
+    background-image: url("/Assets/img/rcb7.jpg");
+}
+#f-image2{
+    background-image: url("/Assets/img/rcb12.jpg");
+}
+#f-image3{
+    background-image: url("/Assets/img/rcb8.jpg");
+}
+#f-image4{
+    background-image: url("/Assets/img/csk.1.jpg");
+}
+#f-image5{
+    background-image: url("/Assets/img/csk.2.jpg");
+}
+#f-image6{
+    background-image: url("/Assets/img/rcb2.jpg");
+}
 footer > .section1-head{
     color: #fff;
     background-color: #010736;
