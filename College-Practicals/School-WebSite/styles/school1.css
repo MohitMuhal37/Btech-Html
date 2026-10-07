@@ -412,6 +412,10 @@ footer > .section1-head{
         height: 350px;
         object-fit: cover;
     }
+    #result-img img{
+        height: 350px;
+        object-fit: cover;
+    }
 }
 @media screen and (max-width: 768px) {
     .contain {
@@ -458,7 +462,7 @@ footer > .section1-head{
         padding: 8px 20px;
     }
 
-    .carousel-item img {
+    .carousel-item img ,#result-img img{
         height: 250px;
     }
 }
@@ -499,11 +503,6 @@ footer > .section1-head{
     .heading {
         padding-top: 5rem;
         font-size: 1rem;
-    }
-    #result-img{
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
     }
 }
 
