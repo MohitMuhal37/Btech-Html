@@ -19,3 +19,19 @@ const text = document.createTextNode("Hello Mohit How Are You");
 div.appendChild(text);
 // append Div to body
 document.body.appendChild(div);
+
+// adding nodes to our webpage
+function createListItem(item)
+{
+    const ul = document.createElement("ul");
+    const li = document.createElement("li");
+    const text = document.createTextNode(item);
+    li.appendChild(text);
+    const test = ul.appendChild(li);
+    console.log(test)
+    document.body.appendChild(ul);
+}
+createListItem("hey");
+createListItem("Mohit");
+createListItem("Rohit");
+createListItem("Rohit");
