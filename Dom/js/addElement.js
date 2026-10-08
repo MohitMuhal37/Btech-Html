@@ -1,13 +1,3 @@
-const items = document.querySelectorAll(".item");
-const btn = document.getElementById("btn"); 
-console.log(items);
-items.forEach((item,index) => {
-    item.style.color = "red";
-    if(index === 0){
-        item.innerText = "Rohan";
-    }
-});
-
 // Create Element
 const div = document.createElement("div");
 // give id and class
