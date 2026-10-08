@@ -1,7 +1,9 @@
-// get child from parent
-const parent = document.querySelector(".items");
-let output;
-output = parent;
-output = parent.children[1].innerText
-parent.children[1].innerText = "childthree"
-console.log(output);
+const items = document.querySelectorAll(".item");
+const btn = document.getElementById("btn"); 
+console.log(items);
+items.forEach((item,index) => {
+    item.style.color = "red";
+    if(index === 0){
+        item.innerText = "Rohan";
+    }
+});
