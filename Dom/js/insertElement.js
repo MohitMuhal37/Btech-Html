@@ -34,3 +34,10 @@ const replaceAll = () => {
 
 replaceAll();
 
+const removeItem = () => {
+    const li = document.querySelector("li");
+    li.forEach((item) => {
+        item.remove();
+    })
+}
+removeItem();
