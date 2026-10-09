@@ -13,4 +13,24 @@ const insertText = (items) => {
     const item = document.querySelector("li:first-child");
     item.insertAdjacentText("afterend",items);
 }
-insertText("hi")
+// insertText("hi")
+
+// replace Item
+const replaceFirstItem = () => {
+    const firstItem = document.querySelector("li:first-child");
+
+    const li = document.createElement("li");
+    li.textContent = "Replace Me";
+    firstItem.replaceWith(li);
+}
+replaceFirstItem();
+
+const replaceAll = () => {
+    const li = document.querySelectorAll("li");
+    li.forEach((item) => {
+        item.outerHTML = `<h1> Hello jaan</h1>`
+    }) 
+}
+
+replaceAll();
+
