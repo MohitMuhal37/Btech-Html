@@ -1,3 +1,4 @@
+const btn = document.querySelector(".btn1");
 const addElement = (item) => {
     const li = document.createElement("li");
     li.innerHTML = `${item}
@@ -11,7 +12,7 @@ const addElement = (item) => {
 
 const createNewItem = (item) => {
     const li = document.createElement("li");
-    const text = document.createTextNode(item);
+    const text = document.createTextNode("Papaya");
     li.appendChild(text);
 
     const button = createButton("remove-item btn-link text-red");
@@ -35,4 +36,5 @@ const createIcon = (classes) => {
     icon.className = classes;
     return icon;
 }
-createNewItem("Cheese")
+
+btn.addEventListener("click",createNewItem);
