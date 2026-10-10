@@ -14,3 +14,11 @@ const colorChange = () => {
 // btn.addEventListener("click",showAlert);
 btn.addEventListener("click",logMsg);
 btn.addEventListener("click",colorChange);
+
+// MouseEvents
+const logo = document.querySelector(".img");
+const onClick = () => console.log("hy Mohit");
+const onDblClick = () => console.log("hey Mohit");
+
+logo.addEventListener("click",onClick);
+logo.addEventListener("dblclick",onDblClick);
