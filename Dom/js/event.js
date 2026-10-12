@@ -21,6 +21,6 @@ const onClick = () => console.log("hy Mohit");
 const onDblClick = () => console.log("hey Mohit");
 
 logo.addEventListener("click",onClick);
-// logo.addEventListener("dblclick",onDblClick);
-// logo.addEventListener("mouseover",onDblClick);
+logo.addEventListener("dblclick",onDblClick);
+logo.addEventListener("mouseover",onDblClick);
 logo.addEventListener("contextmenu",onDblClick);
