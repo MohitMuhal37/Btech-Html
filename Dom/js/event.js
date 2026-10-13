@@ -45,4 +45,10 @@ const onClick = (e) => {
      console.log(e.screenY);
     e.target.style.border = "5px solid black";
 }
+
+const onDrag = (e) => {
+    document.querySelector("h1").textContent = `X ${e.clientX} Y ${e.clientY}`;
+}
+
 logo.addEventListener("click",onClick)
+logo.addEventListener("drag",onDrag)
