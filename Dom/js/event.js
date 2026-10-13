@@ -1,26 +1,32 @@
-const btn = document.querySelector(".btn");
+// const btn = document.querySelector(".btn");
 
-const showAlert = () => {
-    alert("Hello Mohit")
-}
+// const showAlert = () => {
+//     alert("Hello Mohit")
+// }
 
-const logMsg = () => {
-    console.log("Hello Mohit");
-}
-const colorChange = () => {
-    btn.style.background = "pink"
-    console.log(btn);
-}
-// btn.addEventListener("click",showAlert);
-btn.addEventListener("click",logMsg);
-btn.addEventListener("click",colorChange);
+// const logMsg = () => {
+//     console.log("Hello Mohit");
+// }
+// const colorChange = () => {
+//     btn.style.background = "pink"
+//     console.log(btn);
+// }
+// // btn.addEventListener("click",showAlert);
+// btn.addEventListener("click",logMsg);
+// btn.addEventListener("click",colorChange);
 
-// MouseEvents
-const logo = document.querySelector(".img");
-const onClick = () => console.log("hy Mohit");
-const onDblClick = () => console.log("hey Mohit");
+// // MouseEvents
+// const logo = document.querySelector(".img");
+// const onClick = () => console.log("hy Mohit");
+// const onDblClick = () => console.log("hey Mohit");
 
-logo.addEventListener("click",onClick);
-logo.addEventListener("dblclick",onDblClick);
-logo.addEventListener("mouseover",onDblClick);
-logo.addEventListener("contextmenu",onDblClick);
+// logo.addEventListener("click",onClick);
+// logo.addEventListener("dblclick",onDblClick);
+// logo.addEventListener("mouseover",onDblClick);
+// logo.addEventListener("contextmenu",onDblClick);
+
+// EVENT OBJECT
+const logo = document.querySelector("img");
+logo.addEventListener("click",function (e){
+    console.log(e);
+})
