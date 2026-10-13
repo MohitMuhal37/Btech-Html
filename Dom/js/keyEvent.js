@@ -7,6 +7,10 @@ const onKeyDown = (e) => {
     console.log(e.key);
     console.log(e.keyCode);
     console.log(e.code);
+    if(e.repeat)
+    {
+        console.log("you are holding down "+e.key);
+    }
 }
 // itemInput.addEventListener("keypress",onKeyPress);    
 // itemInput.addEventListener("keyup",onKeyUp);    
