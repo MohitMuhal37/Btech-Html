@@ -12,7 +12,3 @@
 .wrapper div:nth-child(odd){
     background-color: #ddd;
 }
-.container{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
