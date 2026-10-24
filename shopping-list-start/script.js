@@ -29,3 +29,28 @@
 // itemInput.addEventListener("focus",onFocus);
 // itemInput.addEventListener("blur",onBlur);
 
+// ---- form validation ---- 
+const form = document.getElementById("item-form");
+
+const onSubmit = (e) => {
+    e.preventDefault();
+    console.log("Submit");
+
+    const item = document.getElementById("item-input").value
+    const pItem = document.getElementById("priority-input").value
+    if(item === "" || pItem === "0"){
+        alert("please fill All Field")
+    // console.log(item,pItem);
+    return;
+    } 
+}
+
+const onSubmit2 = (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    const item = formData.get("item");
+    const priority = formData.get("priority");
+    console.log(item,priority);
+
+}
+form.addEventListener("submit",onSubmit2);
