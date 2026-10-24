@@ -7,5 +7,10 @@ const onInput = (e) => {
     heading.textContent = e.target.value;
 }
 
+const onChecked = (e) => {
+    heading.textContent = e.target.checked ? "checked" : "unchecked"
+}
+
 itemInput.addEventListener("input",onInput);
 priorityInput.addEventListener("input",onInput);
+checkbox.addEventListener("input",onChecked);
