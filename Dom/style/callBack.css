@@ -12,7 +12,10 @@ button{
     font-weight: bolder;
     margin: 20px 0;
 }
-
+#posts{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
 .caution{
     background-color: red;
 }
