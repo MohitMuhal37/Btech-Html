@@ -11,6 +11,20 @@ const onChecked = (e) => {
     heading.textContent = e.target.checked ? "checked" : "unchecked"
 }
 
+const onFocus = () => {
+    console.log("input is focus")
+    itemInput.style.outlineStyle = "solid";
+    itemInput.style.outlineWidth = "5px";
+    itemInput.style.outlineColor = "pink";
+}
+const onBlur = () => {
+    console.log("input is Blur")
+        itemInput.style.outlineStyle = "none";
+
+}
+
 itemInput.addEventListener("input",onInput);
 priorityInput.addEventListener("input",onInput);
 checkbox.addEventListener("input",onChecked);
+itemInput.addEventListener("focus",onFocus);
+itemInput.addEventListener("blur",onBlur);
