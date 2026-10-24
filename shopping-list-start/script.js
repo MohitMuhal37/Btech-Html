@@ -30,27 +30,39 @@
 // itemInput.addEventListener("blur",onBlur);
 
 // ---- form validation ---- 
-const form = document.getElementById("item-form");
+// const form = document.getElementById("item-form");
 
-const onSubmit = (e) => {
-    e.preventDefault();
-    console.log("Submit");
+// const onSubmit = (e) => {
+//     e.preventDefault();
+//     console.log("Submit");
 
-    const item = document.getElementById("item-input").value
-    const pItem = document.getElementById("priority-input").value
-    if(item === "" || pItem === "0"){
-        alert("please fill All Field")
-    // console.log(item,pItem);
-    return;
-    } 
-}
+//     const item = document.getElementById("item-input").value
+//     const pItem = document.getElementById("priority-input").value
+//     if(item === "" || pItem === "0"){
+//         alert("please fill All Field")
+//     // console.log(item,pItem);
+//     return;
+//     } 
+// }
 
-const onSubmit2 = (e) => {
-    e.preventDefault();
-    const formData = new FormData(form);
-    const item = formData.get("item");
-    const priority = formData.get("priority");
-    console.log(item,priority);
+// const onSubmit2 = (e) => {
+//     e.preventDefault();
+//     const formData = new FormData(form);
+//     const item = formData.get("item");
+//     const priority = formData.get("priority");
+//     console.log(item,priority);
 
-}
-form.addEventListener("submit",onSubmit2);
+// }
+// form.addEventListener("submit",onSubmit2);
+
+// --event Bubling --
+
+const button = document.querySelector("form button");
+const div = document.querySelector("form div:nth-child(2)")
+button.addEventListener("click", () => {
+    alert("Button was clicked");
+})
+
+div.addEventListener("click", () => {
+    alert("div was clicked");
+})
