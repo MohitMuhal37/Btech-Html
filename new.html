@@ -6,7 +6,32 @@
     <title>Max</title>
     <script defer src="index.js"></script>
 </head>
+<style>
+    .container{
+        display: none;
+    }
+    .clr{
+        color: blue;
+        border:1px solid black;
+    }
+</style>
 <body>
     <h1 id="mat">Hi Mohit</h1>
+    <div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, praesentium?
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, commodi?
+        </p>
+    </div>
+    <button>click-me</button>
 </body>
+<script>
+const btn = document.querySelector("button");
+const div = document.querySelector("div");
+const toggle = () => {
+    div.classList.toggle("container");
+    div.classList.add("clr");
+}
+btn.addEventListener("click",toggle)
+</script>
 </html>
