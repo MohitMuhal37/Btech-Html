@@ -3,7 +3,7 @@ const text = document.querySelector(".items");
 const item = text.querySelectorAll("li");
 const btn = document.querySelector(".btn");
 
-const run = () => {
+function run(){
     //className
     // para.className = "dark";
     
