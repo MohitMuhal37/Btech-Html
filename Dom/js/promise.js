@@ -1,7 +1,7 @@
 const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
     let value = false;
-    if (!value) {
+    if (value) {
       resolve({ name: "Max", age: 32 });
     } else {
       reject("There is an Error:404");
@@ -16,7 +16,11 @@ const promise = new Promise((resolve, reject) => {
 //   console.log(err)
 // });
 const res = async () => {
-  const response = await(promise);
-  console.log(response);
+  try{
+       const response = await(promise);
+       console.log(response);
+  }catch(err){
+        console.log(err);
+  }
 }
 res();
