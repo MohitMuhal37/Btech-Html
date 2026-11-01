@@ -15,3 +15,8 @@ const promise = new Promise((resolve, reject) => {
 // .catch((err) => {
 //   console.log(err)
 // });
+const res = async () => {
+  const response = await(promise);
+  console.log(response);
+}
+res();
