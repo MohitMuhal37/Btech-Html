@@ -9,19 +9,9 @@ const promise = new Promise((resolve, reject) => {
   }, 3000);
 });
 
-promise
-  .then((user) => {
-    console.log(user);
-    return user.name;
-  }).then((uName) => {
-        console.log(uName);
-        return uName.length;
-  }).then((uLength) => {
-    console.log(uLength)
-  })
-  .catch((error) => {
-    console.log(error);
-  })
-  .then(() => {
-    console.log("This will run");
-  });
+promise.then((user) => {
+  console.log(user);
+})
+.catch((err) => {
+  console.log(err)
+});
