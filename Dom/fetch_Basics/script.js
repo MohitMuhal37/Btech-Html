@@ -15,5 +15,5 @@ fetch("https://api.github.com/users/mohitmuhal37")
         return response.json();
     })
     .then((data) => {
-        console.log(data);
+        document.querySelector("h1").textContent = data.login;
     })
