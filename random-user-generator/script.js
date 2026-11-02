@@ -12,9 +12,9 @@ function displayUser(user) {
   const userDisplay = document.querySelector('#user');
 
   if (user.gender === 'female') {
-    document.body.style.backgroundColor = 'rebeccapurple';
+    document.body.style.backgroundColor = 'pink';
   } else {
-    document.body.style.backgroundColor = 'steelblue';
+    document.body.style.backgroundColor = 'skyblue';
   }
 
   userDisplay.innerHTML = `
@@ -44,6 +44,14 @@ function displayUser(user) {
   `;
 }
 
+function showSpinner() {
+  document.querySelector('.spinner').style.display = 'block';
+}
 
+function hideSpinner() {
+  document.querySelector('.spinner').style.display = 'none';
+}
+
+document.querySelector('#generate').addEventListener('click', fetchUser);
 
 fetchUser();
