@@ -2,6 +2,15 @@ const global = {
     currentPage:window.location.pathname
 };
 
+// Highlight function Link
+const highLight = () => {
+    const moviesTv = document.querySelectorAll(".nav-link");
+    moviesTv.forEach((val) => {
+       if(val.getAttribute("href") === global.currentPage){
+        val.classList.add("active");
+       }
+    });
+}
 const init = () => {
     switch(global.currentPage){
         case '/flixx-apps/index.html':
@@ -15,7 +24,11 @@ const init = () => {
             break;    
         case '/flixx-apps/tv-details.html':
             console.log("Tv Details");
-            break;    
+            break; 
+        case '/flix-apps/search.html':
+            console.log("search");
+            break;      
     }
+    highLight();
 }
 document.addEventListener("DOMContentLoaded",init);
